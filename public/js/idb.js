@@ -68,10 +68,10 @@ function uploadFund() {
                 if (serverResponse.message) {
                     throw new Error(serverResponse);
                 }
-                // open one more transaction
-                const transaction = db.transaction(['transactions'], 'readwrite');
-                // access the transactions object store
-                budgetObjectStore.clear();
+                // // open one more transaction
+                // const transaction = db.transaction(['transactions'], 'readwrite');
+                // // access the transactions object store
+                budgetObjectStore.delete();
 
                 alert('All saved funds has been submitted!')
             })
