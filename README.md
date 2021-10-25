@@ -21,11 +21,7 @@ Ready Features:
 1. **Allows to view all the available funds.**
 2. **Allows to add and subtract funds even if there's no data/internet connection.**
 
-![Initial-display](./assets/screenshots/)
-
-![Initial-display](./assets/screenshots/)
-
-![Initial-display](./assets/screenshots/)
+![Initial-display](./screenshot/main.png)
 
 ## Project Status
 Project is: _in progress_
